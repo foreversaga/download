@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="zh-Hang-TW" xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.thymeleaf.org"
+      layout:decorator="main">
+<head>
+    <meta charset="UTF-8">
+    <title>首頁</title>
+</head>
+<body>
+<div th:include="nav::nav"></div>
+<p th:text="${response}"></p>
+
+</body>
+</html>
